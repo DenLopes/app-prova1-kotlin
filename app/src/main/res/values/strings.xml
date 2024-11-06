@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Prova 1</string>
+    <string name="peso_label">Peso (kg)</string>
+    <string name="altura_label">Altura (m)</string>
+    <string name="masculino">Masculino</string>
+    <string name="feminino">Feminino</string>
+    <string name="calcular">Calcular IMC</string>
+    <string name="limpar">Limpar</string>
+    <string name="resultado_imc">IMC: %.1f - %s</string>
+    <string name="ver_peso_ideal">Ver faixa de peso ideal</string>
+    <string name="peso_ideal_titulo">Faixa de Peso Ideal</string>
+    <string name="peso_ideal_mensagem">Seu peso ideal está entre %.1f kg e %.1f kg</string>
+    <string name="ok">OK</string>
+    <string name="titulo_imc">Informe a altura(em metros) e o peso(em Kg) da pessoa.</string>
+    <string name="instrucao_imc">Selecione o sexo, e toque em "Calcular"</string>
+
+</resources>
