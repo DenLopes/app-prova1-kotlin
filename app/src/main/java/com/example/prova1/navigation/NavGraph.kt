@@ -32,6 +32,7 @@ fun MainLayout(
         Screen.Home.route -> Screen.Home.title
         Screen.IMCCalculator.route -> Screen.IMCCalculator.title
         Screen.Savings.route -> Screen.Savings.title
+        Screen.SavingsTable.route -> Screen.SavingsTable.title
         else -> Screen.Home.title
     }
 
@@ -60,11 +61,16 @@ fun MainLayout(
             }
 
             composable(Screen.Savings.route) {
-                SavingsScreen()
+                SavingsScreen(
+                    onNavigateToSavingsTable = { navController.navigate(Screen.SavingsTable.route) },
+                    navController
+                )
             }
 
             composable(Screen.SavingsTable.route){
-                SavingsScreenTable()
+                SavingsScreenTable(
+                    navController
+                )
             }
         }
     }
